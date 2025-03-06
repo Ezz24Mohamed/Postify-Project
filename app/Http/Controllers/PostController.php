@@ -56,7 +56,7 @@ class PostController extends Controller
       } 
       $validated=$request->validate([
         'title'=>'sometimes|string|max:255',
-        'content'=>'sometime|string',
+        'content'=>'sometimes|string',
       ]); 
       $post->update($validated);
       return response()->json(['message'=>'Post updated successfully','post'=>$post],200);
