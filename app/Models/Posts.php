@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Posts extends Model
 {
     use HasFactory;
+    
+    //this only attributes we can assign values to them
     protected $fillable = [
         'title',
         'content',
@@ -15,7 +17,7 @@ class Posts extends Model
     ];
     public function user()
     {
-        $this->belongsTo(User::class);
+        return $this->belongsTo(User::class);
     }
     public function comments()
     {
