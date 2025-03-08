@@ -67,6 +67,7 @@ Before you begin, ensure you have the following installed on your system:
 
 7. **Set up Laravel Sanctum for authentication:**
    ```sh
+   composer require laravel/sanctum
    php artisan vendor:publish --provider="Laravel\\Sanctum\\SanctumServiceProvider"
    php artisan migrate
    ```
