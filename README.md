@@ -5,8 +5,8 @@ Positfy is a backend API built with Laravel that allows users to manage posts an
 
 ## Features
 - User authentication (Register, Login, Logout)
-- Manage posts (Create, Read, List)
-- Manage comments (Create, Read, List)
+- Manage posts (Create, Read, Update,Delete)
+- Manage comments  (Create, Read, Update,Delete)
 - Token-based authentication with Laravel Sanctum
 
 ## Technologies Used
