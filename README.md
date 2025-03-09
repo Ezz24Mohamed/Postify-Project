@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed on your system:
 - **PHP** (8.0 or later)
 - **Composer**
 - **MySQL** (or any database supported by Laravel)
-- **Laravel** (optional, but recommended)
+- **Laravel** 
 
 ### Installation Steps
 
