@@ -53,9 +53,9 @@ Before you begin, ensure you have the following installed on your system:
    php artisan key:generate
    ```
 
-5. **Run migrations and seed the database:**
+5. **Run migrations :**
    ```sh
-   php artisan migrate --seed
+   php artisan migrate 
    ```
 
 6. **Start the Laravel development server:**
